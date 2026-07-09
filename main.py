@@ -229,7 +229,7 @@ class AnimeAPIClient:
                 }
             }
         }
-        """)
+        """
         result = await self._fetch(
             ANILIST_URL,
             "POST",

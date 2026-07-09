@@ -479,7 +479,7 @@ I am a comprehensive anime information bot. I can help you with:
 /recommend - Smart recommendation
 /help - Help
 
-👨‍💻 Developer: @Mohmmad_badr
+👨‍💻 Developer: @Mohmmad\_badr
 """
     
     keyboard = [
@@ -525,7 +525,7 @@ async def help_command(update, context):
 • You can send an image to search for the anime (Trace.moe)
 • Use the buttons below messages for quick navigation
 
-👨‍💻 For support: @Mohmmad_badr
+👨‍💻 For support: @Mohmmad\_badr
 """
     await update.message.reply_text(help_msg, parse_mode=ParseMode.MARKDOWN)
 
@@ -1065,7 +1065,7 @@ async def error_handler(update, context):
     if update and update.effective_message:
         await update.effective_message.reply_text(
             "⚠️ *An unexpected error occurred*\n\n"
-            "Try again, or contact @Mohmmad_badr",
+            "Try again, or contact @Mohmmad\_badr",
             parse_mode=ParseMode.MARKDOWN
         )
 
